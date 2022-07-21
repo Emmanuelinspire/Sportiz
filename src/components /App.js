@@ -40,9 +40,9 @@ useEffect(()=>{
       })
       setQuiz(formatedQuiz)
     }
+    console.log(apiQuiz)
   });
   },[reset])
-
   // Starts a New Game
   function startQuiz(){
     setGame(true)
